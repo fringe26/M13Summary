@@ -47,7 +47,7 @@ static IEnumerable<string> MostCommonWords(List<string> list)
     {
         if (!keyValuePairs.ContainsKey(word))
         {
-            keyValuePairs[word] = 0;
+            keyValuePairs[word] = 1;
         }
         else
         {
